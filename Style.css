@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif; 
+     
+}
+#preheader{
+    background-color:rgb(239, 239, 239);
+    height: 45px;
+}
+
+#home{
+    background-color: rgb(17, 145, 188);
+    width: 50px;
+    height: 50px;
+}
+.fa-house{
+    font-weight: 900;
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    color:aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.quick{
+    position: absolute;
+    top: 11px;
+    left: 70px;
+    font-size: 14px;
+    font-family:Poppins;
+    cursor: pointer;
+}
+.gear{
+    position: absolute;
+    top: 13px;
+    left: 200px;
+    font-size: 14px;
+    font-family: Poppins;
+    color: rgba(29, 94, 120, 0.421);
+    cursor: pointer;
+}
+ .search{
+    position: absolute;
+    top: 5px;
+    left: 230px;
+    border-radius: 10px;
+    padding-left: 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .button1{
+    position: absolute;
+    top: 8px;
+    left: 749px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: none;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(113 189 221);
+    cursor: pointer;
+}
+.tv{
+    
+    position: absolute;
+    top: 10px;
+    left: 865px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.button2{
+    position: absolute;
+    top: 10px;
+    left: 850px;
+    height: 27px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button3{
+    position: absolute;
+    top: 10px;
+    left: 910px;
+    height: 27px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mobile{
+    position: absolute;
+    top: 15px;
+    left: 930px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button4{
+    position: absolute;
+    top: 10px;
+    left: 970px;
+    height: 27px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mobile1{
+    position: absolute;
+    top: 15px;
+    left: 990px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.question{
+    position: absolute;
+    top: 13px;
+    left: 1060px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.message{
+    position: absolute;
+    top: 13px;
+    left: 1090px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.timer{
+    position: absolute;
+    top: 13px;
+    left: 1120px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button5{
+    position: absolute;
+    top: 10px;
+    left: 1240px;
+    height: 27px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    background-color: rgb(113 189 221);
+    cursor: pointer;
+}
+.saved{
+    position: absolute;
+    top: 15px;
+    left: 1250px;
+    cursor: pointer;
+}
+.button6{
+    position: absolute;
+    top: 10px;
+    left: 1330px;
+    height: 27px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    background-color: rgb(113 189 221);
+    cursor: pointer;
+}
+.export{
+    position: absolute;
+    top: 15px;
+    left: 1340px;
+    cursor: pointer;
+
+}
+.btn2{
+    margin-left: 470px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(113 189 221);
+    font-family: Poppins;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.home{
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    color: white;
+}
+#header{
+    background-color:white;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menus{ 
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    display: flex
+}
+.menu{
+    list-style: none;
+    
+}
+.lname{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    color: black;
+}
+.active{
+    color:blue;
+}
+.lname:hover{
+    color: blue;
+}
+.ddlist{
+    border-radius: 5px;
+    background:#388da8;
+    display: none;
+    position:absolute;
+}
+.menudd{
+    padding: 2px;
+    list-style: none;
+}
+.lnamedd{
+    color: white;
+    text-decoration: none;
+}
+.test:hover .ddlist{
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    top: 26px;
+    left: 1200px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 3px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+    background:lightseagreen;
+    color: white;
+    
+}
+.btn:hover{
+    color: blue;
+}
+#banner{
+    background-image:url(bg.webp);
+    height: 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.hero{
+    position: absolute;
+    top: 380px;
+    height: 600px;
+    left: 430px;
+}
+.bgtitle{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+    letter-spacing: 0.5px;
+}
+.bgtitle::after{
+    content: ' QuickStart';
+    color:  rgb(113 189 221);
+    
+}
+.para1{
+    color: #807777;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.play{
+    position: absolute;
+    top: 358px;
+    left: 620px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(113 189 221);
+}
+.video{
+    position: absolute;
+    top: 360px;
+    left: 672px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+}
+#Features{
+    background-color: f8fbfc;
+    height: 160px;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Features-box{
+    flex: 1;
+   
+}
+.Features-box-icons{
+    background-color: #d1e5ec;
+    height: 82px;
+    width: 72px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.Features-box-icon{
+    position: relative;
+    top: 30px;
+    left: 22px;
+    font-size: 25px;
+    color: #388da8;
+}
+.Features-box-head{
+    margin-top: -70px;
+    margin-left: 110px;
+    color: #388da8;
+}
+.Features-box-para{
+    margin-left: 109px;
+    font-size: 13;
+    margin-top: 10px;
+}
+#about{
+    background: white;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+.AB{
+    flex: 1;
+    /* border: 2px solid green; */
+}
+.about-right{
+    padding-top: 70px;
+
+}
+.about-right-head{
+    font-family: "Mukta";
+    font-size: 30px;
+    color: #3e5055;
+    padding-left: 30px;
+}
+.about-right-para{
+    font-family: Poppins;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.about-right-para1{
+    padding-left: 60px;
+    font-family: poppins;
+    font-size: 15px;
+    
+}
+.check{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 1.25rem;
+}
+.about-1{
+    
+}
+.about-company-2{
+    position: relative;
+    top: -448px;
+    left: 360px;
+}
+.about-company-3{
+    position: absolute;
+    top: 1410px;
+    left: 1070px;
+    
+}
+
+
+
+
+
+
+
+
+
+#Contact{
+    background-color: aliceblue;
+    height: 500px;
+    display:flex;
+}
+.cc{
+    flex: 1;
+    margin: 30px;
+}
+.left{
+
+}
+.right{
+    background-color:white;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    
+
+}
+.btn3{
+    height: 40px;
+    margin-top: 20px;
+    width: 290px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.btn5{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 94%;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    
+}
+.btn6{
+    margin-left: 20px;
+    height: 170px;
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 19px;
+    font-size: 15px;
+}
+
